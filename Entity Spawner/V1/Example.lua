@@ -1,12 +1,12 @@
 ---====== Define spawner ======---
 
-local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V1/Source.lua"))()
+local Spawner = loadstring(game:HttpGet("https://github.com/Timofey2339/Custom-Entities-For-spawner/main/Entity%20Spawner/V1/Source.lua"))()
 
 ---====== Create entity ======---
 
 local entity = Spawner.createEntity({
     CustomName = "Template Entity",
-    Model = "https://github.com/RegularVynixu/Utilities/blob/main/Doors/Entity%20Spawner/Assets/Entities/Rush.rbxm?raw=true", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
+    Model = "https://github.com/Timofey2339/Custom-Entities-For-spawner/main/Entity%20Spawner/Rush.rbxm?raw=true", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
     Speed = 100,
     MoveDelay = 2,
     HeightOffset = 0,
