@@ -7,7 +7,7 @@ local spawner = loadstring(game:HttpGet("https://github.com/Timofey2339/Custom-E
 local entity = spawner.Create({
 	Entity = {
 		Name = "Blitz Example",
-		Asset = "https://github.com/Timofey2339/Custom-Entities-For-spawner/blob/main/Entity%20Spawner/A60.rbxm",
+		Asset = "https://github.com/Timofey2339/Custom-Entities-For-spawner/blob/main/Entity%20Spawner/Assets/Entities/BackDoorRush.rbxm",
 		HeightOffset = 0
 	},
 	Lights = {
