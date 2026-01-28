@@ -35,10 +35,10 @@ local colourGuiding = Color3.fromRGB(137, 207, 255)
 local colourCurious = Color3.fromRGB(253, 255, 133)
 
 local vynixuModules = {
-	Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
+	Functions = loadstring(game:HttpGet("https://github.com/Timofey2339/Custom-Entities-For-spawner/main/Functions.lua"))()
 }
 local assets = {
-	Repentance = LoadCustomInstance("https://github.com/RegularVynixu/Utilities/blob/main/Doors/Entity%20Spawner/Assets/Repentance.rbxm?raw=true")
+	Repentance = LoadCustomInstance("https://github.com/Timofey2339/Custom-Entities-For-spawner/blob/main/Entity%20Spawner/Assets/Repentance.rbxm?raw=true")
 }
 local moduleScripts = {
 	Module_Events = require(ReplicatedStorage.ModulesClient.Module_Events),
@@ -72,7 +72,7 @@ local defaultDebug = {
 local defaultConfig = {
 	Entity = {
 		Name = "Template Entity",
-		Asset = "https://github.com/RegularVynixu/Utilities/blob/main/Doors%20Entity%20Spawner/Models/Rush.rbxm?raw=true",
+		Asset = "https://github.com/Timofey2339/Custom-Entities-For-spawner/blob/main/Entity%20Spawner/Assets/Entities/Rush.rbxm?raw=true",
 		HeightOffset = 0
 	},
 	Movement = {
