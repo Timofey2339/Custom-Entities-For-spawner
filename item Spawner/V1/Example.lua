@@ -1,6 +1,6 @@
 ---====== Define spawner ======---
 
-local spawner = loadstring(game:HttpGet("https://github.com/Timofey2339/Custom-Entities-For-spawner/Item%20Spawner/V1/blob/main/Source.lua"))()
+local spawner = loadstring(game:HttpGet("https://github.com/Timofey2339/Custom-Entities-For-spawner/blob/main/item%20Spawner/V1/Source.lua"))()
 
 ---====== Create item ======---
 
