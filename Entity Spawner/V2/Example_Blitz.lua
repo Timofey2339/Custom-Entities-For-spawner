@@ -1,13 +1,13 @@
 ---====== Load spawner ======---
 
-local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Entity%20Spawner/V2/Source.lua"))()
+local spawner = loadstring(game:HttpGet("https://github.com/Timofey2339/Custom-Entities-For-spawner/blob/main/Entity%20Spawner/V2/Source.lua"))()
 
 ---====== Create entity ======---
 
 local entity = spawner.Create({
 	Entity = {
 		Name = "Blitz Example",
-		Asset = "https://github.com/RegularVynixu/Utilities/raw/main/Doors/Entity%20Spawner/Assets/Entities/BackdoorRush.rbxm",
+		Asset = "https://github.com/Timofey2339/Custom-Entities-For-spawner/blob/main/Entity%20Spawner/A60.rbxm",
 		HeightOffset = 0
 	},
 	Lights = {
